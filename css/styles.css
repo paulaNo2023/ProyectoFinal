@@ -1,0 +1,315 @@
+* {
+    background-color: rgb(118, 120, 163);
+    background: linear-gradient(purple, violet);
+}
+
+#main {
+    width: 100%;
+    height: 1200px;
+}
+
+.item {
+    text-align: left;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 430px;
+}
+
+h1 {
+    color: aquamarine;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.subtitulos {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.boxmodelDiv {
+    /* width: 200;
+    height: 200; */
+
+    margin-top: 20px;
+    /* margen arriba*/
+    margin-right: 200px;
+    /*margena la derecha */
+    margin-bottom: 20px;
+    /*mergen en la parte de abajo */
+    margin-left: 300px;
+    /*margin a la izquiera de 20*/
+    /*margin: 5px, 10px, 15px, 20px; /*todo se resume a esta linea */
+    text-align: 20px, 250px, 20px, 300;
+    /* border-radius: 10px; */
+    /* display: inline-block; */
+}
+
+
+.boxModelDiv2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(137, 92, 137);
+    overflow: visible;
+    /*ya esta visible*/
+    overflow: hidden;
+    /*corta en el ancho y largo que se le de =*/
+    overflow: scroll;
+    /* le pone el scroll a todas las clases con ese nombre */
+    overflow: auto;
+    /* le pone el scroll a quien lo requira*/
+
+    margin-left: 200px;
+    /*margin a la izquiera de 20*/
+
+    padding-top: 5px;
+    /*se delimita la caja popr dentro arriba */
+    padding-right: 10px;
+    /*se delimita la caja popr dentro derecha */
+    padding-bottom: 15px;
+    /*se delimita la caja popr dentro abajo */
+    padding-left: 20px;
+    /*se delimita la caja popr dentro izquierda */
+    padding: 5px, 10px, 15px, 20px;
+    display: inline-block;
+    /*alinea los cuadros*/
+
+
+}
+
+.tabla1 {
+    width: 220px;
+    height: 220px;
+    margin-left: 100px;
+    /*margin a la izquiera de 20*/
+    display: inline-table;
+
+
+
+
+
+}
+
+/* .titulos{
+
+    text-align: center;
+} */
+
+
+#ulNav {
+    list-style-type: none;
+}
+
+.li {
+    background-color: rgb(108, 97, 118);
+    float: left;
+    margin-right: 10px;
+    padding: 0 4px;
+    /* text-align: center;
+    width: 200px; */
+
+}
+
+.padre-flex span {
+    width: auto;
+    height: 300px;
+    /* padding: 5px, 10px, 15px, 20px; */
+}
+
+.padre-flex {
+
+    background-color: rgb(137, 92, 137);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* grid-template-columns: repeat(3, 520px); */
+
+
+
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 520px);
+}
+
+.parrafo {
+    text-align: initial;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boton {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: 650px;
+}
+
+footer {
+    margin-top: 10px;
+
+}
+
+header,
+footer {
+    background-color: rgb(93, 1, 111);
+}
+
+.redes {
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    grid-area: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* @media screen and (min-width: 320px) {
+    #main {
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto 5% 15% 10% 15% 5%;
+        column-gap: 10px; /*espacio entre las filas */
+/* row-gap: 10; espacio entre las columnas */
+/* gap: 5px; unico valor para los espacios entre filas y columnas */
+/* grid-template-areas: "header" "nav" "section" "section" "section" "footer"; tantas comillas como filas */
+
+/* }
+
+
+/* }  */
+
+/* @media screen and (min-width: 1200px) {
+        #main{
+        grid-template-columns: 15% auto;
+        grid-template-rows: 15% 10% auto 15%;
+        column-gap: 10px; /*espacio entre las filas*/
+/* row-gap: 10; espacio entre las columnas */
+/* gap: 10px; unico valor para los espacios entre filas y columnas */
+/* grid-template-areas: "header header" "nav nav" "aside section" "footer footer"  ; tantas comillas como filas */
+
+
+/* }} */
+
+/* #main{
+        grid-template-columns: auto auto auto auto ;
+        grid-template-rows: 15% 5% auto 10% 10% 10% 15% 5%;
+         column-gap: 10px; /*espacio entre las filas */
+/*  row-gap: 10; /*espacio entre las columnas */
+/* gap: 5px;
+        /*unico valor para los espacios entre filas y columnas*/
+/* grid-template-areas: "header header" "nav nav" "section section" "section section" "section section" "aside aside" "section section" "footer footer";
+        /*tantas comillas como filas*/
+
+/* }
+
+
+} */
+
+@media screen and (max-width: 767px) {
+    .logo {
+        margin: 5px 25px 0.5px 225px;
+        width: 300px;
+    }
+
+    .li {
+        background-color: rgb(108, 97, 118);
+        font-size: 20px;
+        float: left;
+    }
+
+    #servicios2 {
+        font-size: 15px;
+        margin: 50px 50px 50px -310px;
+        /* margin-top: 50px; */
+    }
+
+    .boxModelDiv2 {
+        margin-left: 230px;
+        display: list-item;
+        font-size: 55;
+    }
+
+    .tabla1 {
+        margin: 0px 0px 0px 220px;
+        display: list-item;
+        font-size: 60;
+    }
+
+    aside {
+        margin-right: 300px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .grid1 {
+        grid-template-columns: repeat(2, 400px);
+    }
+
+    .boton {
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: 310px;
+        font-size: 20px;
+    }
+
+}
+
+/* @media screen and (min-width: 320px) {
+    #main {
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto 5% 15% 10% 15% 5%;
+        column-gap: 10px; /*espacio entre las filas */
+/* row-gap: 10; /*espacio entre las columnas */
+/*gap: 5px; /*unico valor para los espacios entre filas y columnas */
+/*grid-template-areas: "header" "nav" "section" "section" "section" "footer"; tantas comillas como filas */
+
+/*  }
+
+
+ } */
+
+
+h2 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.logo {
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
