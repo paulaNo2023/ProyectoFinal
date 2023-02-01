@@ -14,7 +14,11 @@
 
 .logo {
     margin-top: 20px;
+<<<<<<< HEAD
     margin-left: 430px;
+=======
+    margin-left: 500px;
+>>>>>>> 37f0467 (bootstrap)
 }
 
 h1 {
@@ -23,6 +27,10 @@ h1 {
 
 .titulo {
     text-align: center;
+<<<<<<< HEAD
+=======
+    font-size: 25px;
+>>>>>>> 37f0467 (bootstrap)
 }
 
 .subtitulos {
@@ -101,6 +109,10 @@ h1 {
 
 #ulNav {
     list-style-type: none;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 37f0467 (bootstrap)
 }
 
 .li {
@@ -210,6 +222,12 @@ footer {
 
 
 } */
+<<<<<<< HEAD
+=======
+aside {
+    margin-bottom: 20px;
+}
+>>>>>>> 37f0467 (bootstrap)
 
 @media screen and (max-width: 767px) {
     .logo {
@@ -312,4 +330,17 @@ h2 {
         opacity: 1;
     }
 
+<<<<<<< HEAD
+=======
+}
+#carousel1{
+    width: 60%;
+    height: 60%;
+    margin-left: 290px;
+    margin-bottom: 10px;
+    animation-duration: 10s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+
+>>>>>>> 37f0467 (bootstrap)
 }
