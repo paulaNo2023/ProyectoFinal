@@ -307,4 +307,19 @@ h2 {
   background-color: red;
   margin: 5px 5px 5px 5px;
   border: rgb(233, 7, 233) 5px solid;
+}
+.grid1 h3:hover p {
+  text-decoration: line-through;
+}
+
+/*
+@media screen and (max-width: 767px) {
+    .logo{
+        margin: $marginLogo;
+    }
+}*/
+.venta {
+  display: inline-table;
+  font-size: 20px;
+  margin: 12px 12px 12px 12px;
 }/*# sourceMappingURL=styles.css.map */
