@@ -49,8 +49,8 @@ h1 {
 }
 
 .boxModelDiv2 {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 350px;
   background-color: rgb(137, 92, 137);
   overflow: visible;
   /*ya esta visible*/
@@ -60,7 +60,7 @@ h1 {
   /* le pone el scroll a todas las clases con ese nombre */
   overflow: auto;
   /* le pone el scroll a quien lo requira*/
-  margin-left: 200px;
+  margin-left: 50px;
   /*margin a la izquiera de 20*/
   padding-top: 5px;
   /*se delimita la caja popr dentro arriba */
@@ -76,10 +76,16 @@ h1 {
 }
 
 .tabla1 {
-  width: 220px;
-  height: 220px;
-  margin-left: 100px;
+  /*background-image: url(/media/vMRjRY.gif);*/
+  /*   width: 220px;
+     height: 220px;
+     margin-left: 20px;*/
   /*margin a la izquiera de 20*/
+  margin-bottom: 60px;
+  -webkit-margin-start: 30px;
+          margin-inline-start: 30px;
+  -webkit-margin-end: 50px;
+          margin-inline-end: 50px;
   display: inline-table;
 }
 
@@ -134,7 +140,14 @@ h1 {
 }
 
 footer {
-  margin-top: 10px;
+  margin-top: 5px;
+  -webkit-margin-start: 20px;
+          margin-inline-start: 20px;
+  margin-left: 650px;
+  margin-right: 500px;
+  -webkit-margin-end: 600px;
+          margin-inline-end: 600px;
+  margin-bottom: 20px;
 }
 
 header,
@@ -242,21 +255,9 @@ footer {
 
  } */
 h2 {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-name: aparecer;
-          animation-name: aparecer;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes aparecer {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
 }
 
 @keyframes aparecer {
@@ -268,12 +269,9 @@ h2 {
   }
 }
 .logo {
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-  -webkit-animation-name: aparecer;
-          animation-name: aparecer;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
 }
 
 @keyframes aparecer {
@@ -289,12 +287,9 @@ h2 {
   height: 60%;
   margin-left: 290px;
   margin-bottom: 10px;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
-  -webkit-animation-name: aparecer;
-          animation-name: aparecer;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
 }
 
 .grid1 {
@@ -310,6 +305,9 @@ h2 {
 }
 .grid1 h3:hover p {
   text-decoration: line-through;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
 }
 
 /*
