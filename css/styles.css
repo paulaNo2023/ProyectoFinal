@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css?family=Rubik+One';
 * {
   background-color: rgb(118, 120, 163);
   background: linear-gradient(purple, violet);
@@ -199,7 +200,138 @@ footer {
 
 
 } */
-@media screen and (max-width: 767px) {
+@media all and (max-width: 480px) {
+  .logo {
+    margin: 5px 45px -0.5px 100px;
+    width: 200px;
+  }
+  .li {
+    background-color: rgb(108, 97, 118);
+    font-size: 15px;
+    float: left;
+  }
+  #servicios2 {
+    width: 10px;
+    margin: 20px 20px 20px -305px;
+  }
+  .foo1 {
+    margin-left: 400px;
+  }
+  .boxModelDiv2 {
+    margin-left: 180px;
+    margin-right: 200px;
+    display: list-item;
+    font-size: 10;
+  }
+  .tabla1 {
+    margin: 0px 0px 0px 0px;
+    display: list-item;
+    font-size: 40;
+    margin-bottom: 20px;
+  }
+  aside {
+    margin-right: 10px;
+    margin-left: 2px;
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .grid1 {
+    grid-template-columns: repeat(2, 400px);
+  }
+  imag1 {
+    height: 200px;
+    width: 200px;
+  }
+  .boton {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: 310px;
+    font-size: 20px;
+  }
+  .imagens {
+    height: 800px;
+    width: 60px;
+    margin-left: -10px;
+  }
+  .titulo {
+    margin-top: 50px;
+    width: 430px;
+    height: 30px;
+  }
+  .subtitulos {
+    margin-left: 15px;
+    width: 9800px;
+    height: 20px;
+  }
+  .sub1 {
+    width: 9800px;
+    height: 35px;
+  }
+  .grid1 {
+    margin-top: 20px;
+    -webkit-margin-after: 20px;
+            margin-block-end: 20px;
+  }
+  .imgs {
+    margin-left: 30px;
+    -webkit-margin-before: 20px;
+            margin-block-start: 20px;
+    margin-bottom: 20px;
+  }
+  .imgs1 {
+    -webkit-margin-before: 490px;
+            margin-block-start: 490px;
+    margin-left: -370px;
+    margin-right: 450px;
+  }
+  .imgs2 {
+    margin-left: 30px;
+  }
+  .imgs3 {
+    -webkit-margin-before: 490px;
+            margin-block-start: 490px;
+    margin-left: -370px;
+    margin-right: 400px;
+  }
+  .imgs4 {
+    margin-left: 30px;
+  }
+  .fo {
+    margin-left: 390px;
+  }
+  .venta {
+    margin-left: 5px;
+    margin-right: 200000px;
+  }
+  .fo1 {
+    margin-left: 390px;
+  }
+  #carousel1 {
+    margin-top: 40px;
+    margin-left: 2px;
+  }
+  .testimonios2 {
+    margin-left: -140px;
+    -webkit-margin-after: 20px;
+            margin-block-end: 20px;
+  }
+  .fo2 {
+    margin-left: 390px;
+  }
+  .fo3 {
+    margin-left: 390px;
+  }
+  .imgcli {
+    margin-top: 20px;
+    margin-left: -500px;
+    height: auto;
+    width: auto;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 768px) {
   .logo {
     margin: 5px 25px 0.5px 225px;
     width: 300px;
@@ -212,22 +344,23 @@ footer {
   #servicios2 {
     font-size: 15px;
     margin: 50px 50px 50px -310px;
-    /* margin-top: 50px; */
   }
   .boxModelDiv2 {
-    margin-left: 230px;
+    margin-left: 190px;
     display: list-item;
     font-size: 55;
   }
   .tabla1 {
-    margin: 0px 0px 0px 220px;
+    margin: 0px 0px 0px 180px;
     display: list-item;
     font-size: 60;
+    margin-bottom: 20px;
   }
   aside {
-    margin-right: 300px;
+    margin-right: 10px;
     margin-left: 10px;
     font-size: 20px;
+    margin-bottom: 20px;
   }
   h2 {
     font-size: 20px;
@@ -241,19 +374,303 @@ footer {
     margin-left: 310px;
     font-size: 20px;
   }
+  .imagens {
+    height: 800px;
+    width: 60px;
+    margin-left: -10px;
+  }
+  .titulo {
+    margin-top: 50px;
+    width: 900px;
+    height: 30px;
+  }
+  .subtitulos {
+    margin-left: 15px;
+    width: 9800px;
+    height: 20px;
+  }
+  .sub1 {
+    width: 9800px;
+    height: 35px;
+  }
+  .grid1 {
+    margin-top: 20px;
+    -webkit-margin-after: 20px;
+            margin-block-end: 20px;
+  }
+  .imgs {
+    margin-left: 30px;
+    -webkit-margin-before: 20px;
+            margin-block-start: 20px;
+    margin-bottom: 20px;
+  }
+  .imgs1 {
+    -webkit-margin-before: 490px;
+            margin-block-start: 490px;
+    margin-left: -370px;
+    margin-right: 450px;
+  }
+  .imgs2 {
+    margin-left: 30px;
+  }
+  .imgs3 {
+    -webkit-margin-before: 490px;
+            margin-block-start: 490px;
+    margin-left: -370px;
+    margin-right: 400px;
+  }
+  .imgs4 {
+    margin-left: 30px;
+  }
+  .fo {
+    margin-left: 450px;
+  }
+  .venta {
+    margin-left: 5px;
+    margin-right: 200000px;
+  }
+  .fo1 {
+    margin-left: 450px;
+  }
+  #carousel1 {
+    margin-top: 40px;
+    margin-left: -10000000000000px;
+  }
+  .testimonios2 {
+    margin-left: -140px;
+    -webkit-margin-after: 20px;
+            margin-block-end: 20px;
+  }
+  .fo2 {
+    margin-left: 450px;
+  }
+  .fo3 {
+    margin-left: 450px;
+  }
+  .imgcli {
+    margin-top: 20px;
+    margin-left: -500px;
+    height: auto;
+    width: auto;
+  }
 }
-/* @media screen and (min-width: 320px) {
-    #main {
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: auto 5% 15% 10% 15% 5%;
-        column-gap: 10px; /*espacio entre las filas */
-/* row-gap: 10; /*espacio entre las columnas */
-/*gap: 5px; /*unico valor para los espacios entre filas y columnas */
-/*grid-template-areas: "header" "nav" "section" "section" "section" "footer"; tantas comillas como filas */
-/*  }
-
-
- } */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    margin: 5px 25px 0.5px 220px;
+    width: 300px;
+  }
+  .li {
+    background-color: rgb(108, 97, 118);
+    font-size: 20px;
+    float: left;
+  }
+  #servicios2 {
+    font-size: 15px;
+    margin: 50px 50px 50px -310px;
+  }
+  .boxModelDiv2 {
+    margin-left: 320px;
+    display: list-item;
+    font-size: 55;
+  }
+  .tabla1 {
+    margin: 0px 0px 0px 90px;
+    display: list-item;
+    font-size: 60;
+    margin-bottom: 20px;
+  }
+  aside {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .grid1 {
+    grid-template-columns: repeat(1, 800px);
+    margin-top: 20px;
+  }
+  .boton {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: 310px;
+    font-size: 20px;
+  }
+  .imagens {
+    height: 800px;
+    width: 60px;
+    margin-left: -10px;
+  }
+  .titulo {
+    margin-top: 50px;
+    width: 900px;
+    height: 30px;
+  }
+  .foo1 {
+    margin-left: 740px;
+  }
+  .sub1 {
+    font-size: 30px;
+  }
+  .subtitulos {
+    margin-left: 15px;
+    width: 9800px;
+    height: 20px;
+  }
+  .sub1 {
+    width: 9800px;
+    height: 35px;
+  }
+  .grid1 {
+    margin-top: 20px;
+    -webkit-margin-after: 20px;
+            margin-block-end: 20px;
+  }
+  .fo {
+    margin-left: 740px;
+  }
+  .venta {
+    margin-left: 5px;
+    margin-right: 200000px;
+  }
+  .fo1 {
+    margin-left: 740px;
+  }
+  #carousel1 {
+    margin-top: 40px;
+    margin-left: -10000000000000px;
+  }
+  .testimonios2 {
+    margin-left: -140px;
+    -webkit-margin-after: 20px;
+            margin-block-end: 20px;
+  }
+  .fo2 {
+    margin-left: 740px;
+  }
+  .fo3 {
+    margin-left: 740px;
+  }
+  .imgcli {
+    margin-top: 20px;
+    margin-left: -300px;
+    height: auto;
+    width: auto;
+    margin-right: 200px;
+  }
+}
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .logo {
+    margin: 5px 25px 0.5px 270px;
+    width: 500px;
+  }
+  .li {
+    background-color: rgb(108, 97, 118);
+    font-size: 30px;
+    float: left;
+  }
+  #servicios2 {
+    font-size: 20px;
+    margin: 50px 50px 50px -180px;
+  }
+  .boxModelDiv2 {
+    margin-left: 480px;
+    display: list-item;
+    font-size: 55;
+  }
+  .tabla1 {
+    margin: 0px 0px 0px 10px;
+    display: list-item;
+    font-size: 60;
+    margin-bottom: 20px;
+  }
+  aside {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .grid1 {
+    grid-template-columns: repeat(2, 500px);
+    margin-top: 20px;
+  }
+  .boton {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: 310px;
+    font-size: 20px;
+  }
+  .imagens {
+    height: 800px;
+    width: 80px;
+    margin-left: -10px;
+  }
+  .titulo {
+    margin-top: 50px;
+    width: 900px;
+    height: 30px;
+  }
+  .foo1 {
+    margin-left: 1000px;
+  }
+  .sub1 {
+    font-size: 30px;
+  }
+  .subtitulos {
+    margin-left: 20px;
+    width: 9800px;
+    height: 20px;
+  }
+  .item {
+    margin-left: 150px;
+  }
+  .sub1 {
+    width: 9800px;
+    height: 35px;
+  }
+  .grid1 {
+    margin-top: 20px;
+    -webkit-margin-after: 20px;
+            margin-block-end: 20px;
+  }
+  .fo {
+    margin-left: 1000px;
+  }
+  .venta {
+    margin-left: 5px;
+    margin-right: 200000px;
+  }
+  .fo1 {
+    margin-left: 1000px;
+  }
+  #carousel1 {
+    margin-top: 40px;
+    margin-left: -10000000000000px;
+  }
+  .testimonios2 {
+    margin-left: -140px;
+    -webkit-margin-after: 20px;
+            margin-block-end: 20px;
+  }
+  .fo2 {
+    margin-left: 1000px;
+  }
+  .fo3 {
+    margin-left: 1000px;
+  }
+  .imgcli {
+    margin-top: 20px;
+    margin-left: -300px;
+    height: auto;
+    width: auto;
+    margin-right: 200px;
+  }
+}
 h2 {
   animation-duration: 2s;
   animation-name: aparecer;
@@ -320,4 +737,98 @@ h2 {
   display: inline-table;
   font-size: 20px;
   margin: 12px 12px 12px 12px;
+}
+
+#carousel2 {
+  width: 60%;
+  height: 60%;
+  margin-left: 290px;
+  margin-bottom: 10px;
+  animation-duration: 10s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+.servicios1 {
+  margin-left: 290px;
+  width: 950px;
+  height: 600px;
+}
+.servicios1:hover {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0px 0px 15px 15px #920f76;
+  -webkit-box-shadow: 0px 0px 15px 15px #cd1eec;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+.cliente1 {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.imagentest:hover {
+  filter: opacity(0.5);
+}
+
+.imag1:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+.btn {
+  position: center;
+  display: block;
+  color: white;
+  font-size: 15px;
+  font-family: "montserrat";
+  text-decoration: none;
+  margin-left: 450px;
+  margin-right: 900px;
+  border: 2px solid #010101;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+
+.btn::before {
+  background: #ff7675;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
+.btn4::before {
+  width: 100%;
+  height: 0%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.btn4:hover::before {
+  height: 380%;
+}
+
+.imagens {
+  height: 40px;
+  width: 40px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+.imagens:hover {
+  height: 100px;
+  width: 70px;
+  margin-left: -50px;
 }/*# sourceMappingURL=styles.css.map */
