@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Testimonios de los clientes">
-  <meta name="keywords" content="clientes, reseñas, opiniones">
-  <title>Testimonios</title>
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/styles.css">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Testimonios de los clientes">
+		<meta name="keywords" content="clientes, reseñas, opiniones">
+		<title>Testimonios</title>
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../sss/sss.css">
+		<link rel="stylesheet" href="../css/styles.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="../sss/sss.js"></script>
+	<script>
+	    jQuery(function($){
+	        $('.slider-testimonial').sss({
+	        	slideShow : true,
+	        	speed : 3500
+	        });
+	    });
+	</script>
 </head>
-
-<body>
-
-  <div>
+<div>
     <header>
       <!-- <h1>SERVICIOS A TU ALCANCE</h1> -->
       <img class="logo" src="../media/logo1.jpg.png">
@@ -32,90 +39,55 @@
       </ul>
 
     </nav>
-    <br>
-    <br>
 
-    <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-
-        <div class="carousel-item active">
-          <img src="../media/testimonio1.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../media/testimonio2.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../media/testimonio3.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../media/testimonio 4.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../media/testimonio5.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../media/testimonio6.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../media/testimonio8.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../media/testimonio9.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-    </div>
-
-    <div  style="text-align:center;">
-
-
-    <section class="testimonios2">
-      <h2 class="item"> TESTIMONIOS</h2>
-      <div class="boxModelDiv2">
-        <h2 class="subtitulos">TESTIMONIO1</h2>
-        Yo tuve una experimiencia bastante agradable, me dejaron mi casa como lo sonaba.
-        <br><br>
-        <img class= 'imagentest' src="../media/testimonio10.jpg">
-
-      </div>
-
-      <div class="boxModelDiv2">
-        <h2 class="subtitulos">TESTIMONIO2</h2>
-        Me hicieron toda la estructura para unas oficinas y mas que bien me quedo todo.
-        <br><br>
-        <img class= 'imagentest'src="../media/testimonio12.jpg">
-
-      </div>
-
-      <div class="boxModelDiv2">
-
-        <h2 class="subtitulos">TESTIMONIO3</h2>
-        Me ayudaron decorando toda mi empresa y soy la envidia de la industria.
-        <br><br>
-        <img class= 'imagentest' src="../media/testimonio7.jpg">
-
-      </div>
-    </section>
-    <input type="submit" name="Agregar testimonio" value="Agregar testimonio">
-  </div>
-  <br>
-
-    <footer class="fo2">
-      <img class='imagens' src="../media/facebook (1).png">
-      <img class='imagens' src="../media/insta.png">
-      <img class='imagens' src="../media/twitter.png">
-      <img class='imagens' src="../media/tiktok.png">
-    </footer>
-
-  </div>
-  <script src="./js/bootstrap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-    crossorigin="anonymous"></script>
-
-
+<body>
+	<div class="wrapper">
+		<div class="slider-testimonial">
+			<div class="testimonial-item">
+				<div class="testimonial-client">
+					<img src="../media/testimonio10.jpg" alt="">
+					<p class="client-name">Carlos Gomez</p>
+				</div>
+				<div class="testimonial-text">
+					<p>Yo tuve una experimiencia bastante agradable, me dejaron mi casa como lo sonaba.</p>
+				</div>
+			</div>
+			<div class="testimonial-item">
+				<div class="testimonial-client">
+					<img src="../media/testimonio6.jpg" alt="">
+					<p class="client-name">Fernando Castro</p>
+				</div>
+				<div class="testimonial-text">
+					<p>Me hicieron toda la estructura para unas oficinas y mas que bien me quedo todo.</p>
+				</div>
+			</div>
+			<div class="testimonial-item">
+				<div class="testimonial-client">
+					<img src="../media/testimonio7.jpg" alt="">
+					<p class="client-name">Adrian Fernandez</p>
+				</div>
+				<div class="testimonial-text">
+					<p>Me ayudaron decorando toda mi empresa y soy la envidia de la industria.</p>
+				</div>
+			</div>
+			<div class="testimonial-item">
+				<div class="testimonial-client">
+					<img src="../media/testimonio9.jpg" alt="">
+					<p class="client-name">Camilo Torres</p>
+				</div>
+				<div class="testimonial-text">
+					<p>Me ayudaron decorando mi spa de uñas y ha sido todo un éxito las clientas lo aman. Cada vez que nos visitan siempre se llevan el recuerdo de una foto en el stand que nos hicieron.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="fo2">
+	<img class='imagens' src="../media/facebook (1).png">
+	<img class='imagens' src="../media/insta.png">
+	<img class='imagens' src="../media/twitter.png">
+	<img class='imagens' src="../media/tiktok.png">
+  </footer>
+	
 </body>
-
 </html>

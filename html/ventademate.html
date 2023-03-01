@@ -1,176 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Venta de articulos para el hogar, oficinas y demás.">
-    <meta name="keywords" content="pintura, colores, articulos, venta, remodelacion, ferreteria">
-    <title>Venta de materiales</title>
-    <link rel="stylesheet" href="../css/styles.css">
-   
-
-</head>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Venta de articulos para el hogar, oficinas y demás.">
+        <meta name="keywords" content="pintura, colores, articulos, venta, remodelacion, ferreteria">
+        <title>Venta de materiales</title>
+        <link rel="stylesheet" href="../css/styles.css">   
+    </head>
 <body>
-    <div>
-        <header>
-            <!-- <h1>SERVICIOS A TU ALCANCE</h1> -->
-            <img class="logo" src="../media/logo1.jpg.png">
+    <header id="header">
+        <img class="logo" src="../media/logo1.jpg.png">
+        <h1>Venta de materiales</h1> 
+        <img class="carrito" src="../media/carrito-de-compras.png" alt="carrito">
+    </header>
+ 
+    <nav>
+        <ul id="ulNav">
+            <li class="li"><a href="../index.html">Inicio</a></li>
+            <li class="li"><a href="../html/servicios.html">Servicios</a></li>
+            <li class="li"><a href="../html/ventademate.html">Venta de materiales</a></li>
+            <li class="li"><a href="../html/testimonios.html">Testimonios</a></li>
+            <li class="li"><a href="../html/servicioalclien.html">Servicio al cliente</a></li>
+        </ul>
 
-        </header>
-        <nav>
-            <ul id="ulNav">
-                <li class="li"><a href="../index.html">Inicio</a></li>
-                <li class="li"><a href="../html/servicios.html">Servicios</a></li>
-                <li class="li"><a href="../html/ventademate.html">Venta de materiales</a></li>
-                <li class="li"><a href="../html/testimonios.html">Testimonios</a></li>
-                <li class="li"><a href="../html/servicioalclien.html">Servicio al cliente</a></li>
-
-
-            </ul>
-
-        </nav>
-        <br>
-        <br>
-        <div class="venta" style="text-align:center;">
-        <table class="table table-hover">
-            <thead>
-              <tr>
-                <th scope="col">PISOS </th>
-                <th scope="col">Modelo</th>
-                <th scope="col">Color</th>
-                <th scope="col">Precio</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>2021</td>
-                <td>Terracota</td>
-                <td>$50.000m2 </td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>2022</td>
-                <td>Camel</td>
-                <td>$55.000m2 </td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td >2023</td>
-                <td> Gris Oscuro</td>
-                <td>$62.000m2</td>
-              </tr>
-            </tbody>
-          </table>
-          <br>
-          <img src="../media/terracota.jpg" style="border: 5px solid #7a407a;">
-          <input type="radio" >
-          <img src="../media/camel.jpg" style="border: 5px solid #7a407a;">
-          <input type="radio" class="botonr">
-          <img src="../media/grisoscuro.jpg" style="border: 5px solid #7a407a;">
-          <input type="radio" class="botonr">
-          <input type="submit" value="Comprar" />
+    </nav>
+    
+     <div id="contenedor" class="contenedor">
+        <div>
+            <img class='ventaimg' src="../media/grisoscuro.jpg" alt="producto 1">
+            <div class="informacion">
+                <p>Piso gris oscuro</p>
+                <p class="precio">$62.000 m2<span></span></p>
+                <button>Comprar</button>
+            </div>
         </div>
-        
-
-        
-
-        <div class="venta" style="text-align:center;">
-
-          <table class="table table-hover">
-            <thead>
-              <tr>
-                <th scope="col">PINTURA </th>
-                <th scope="col">Marca</th>
-                <th scope="col">Color</th>
-                <th scope="col">Precio</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Vinito</td>
-                <td>Todos</td>
-                <td>$60.000 galon</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>  Colores</td>
-                <td>Tonos pastel</td>
-                <td>$63.000 galon</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td> pinturas dt</td>
-                <td> Tonos metalizados</td>
-                <td>$65.000 galon</td>
-              </tr>
-            </tbody>
-          </table>
-          <br>
-          <img src="../media/colores.jpg" style="border: 5px solid #7a407a;">
-          <input type="radio" >
-          <img src="../media/pasteles.jpg" style="border: 5px solid #7a407a;">
-          <input type="radio" class="botonr">
-          <img src="../media/metalizados.jpg" style="border: 5px solid #7a407a;">
-          <input type="radio" class="botonr" >  
-          <input type="submit" value="Comprar" />
+        <div>
+            <img class='ventaimg' src="../media/camel.jpg" alt="producto 2">
+            <div class="informacion">
+                <p>Piso camel</p>                   
+                <p class="precio">$55.000 m2<span></span></p>
+                <button>Comprar</button>
+            </div>
         </div>
-       
-        <div class="venta" style="text-align:center;">
-        
-          <table class="table table-hover">
-            <thead>
-              <tr>
-                <th scope="col">ARTICULO COCINA </th>
-                <th scope="col">Modelo</th>
-                <th scope="col">Color</th>
-                <th scope="col">Precio</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Vajillas</td>
-                <td>Ref 001</td>
-                <td>$100.000</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Vasos x30</td>
-                <td>Ref 003</td>
-                <td>$70.000</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Cubiertos </td>
-                <td>Ref 0010</td>
-                <td>$80.000</td>
-              </tr>
-            </tbody>
-          </table>
-          <br>
-          <img src="../media/vajilla.jpg" style="border: 5px solid #7a407a;">
-          <input type="radio" >
-          <img src="../media/vasos.jpg" style="border: 5px solid #7a407a;">
-          <input type="radio" class="botonr">
-          <img src="../media/cubiertos.jpg" style="border: 5px solid #7a407a;">
-          <input type="radio" class="botonr">
-          <input type="submit"  value="Comprar" />
-          
+        <div>
+            <img class='ventaimg' src="../media/terracota.jpg" alt="producto 3">
+            <div class="informacion">
+                <p>Piso terracota</p>                   
+                <p class="precio">$50.000 m2<span></span></p>
+                <button>Comprar</button>
+            </div>
         </div>
-        
-        <footer class="fo1">
-          <img class='imagens' src="../media/facebook (1).png" >
-          <img  class='imagens' src="../media/insta.png" >
-          <img class='imagens' src="../media/twitter.png">
-          <img class='imagens' src="../media/tiktok.png">
-      </footer>
+        <div>
+            <img class='ventaimg' src="../media/colores.jpg" alt="producto 4">
+            <div class="informacion">
+                <p>Pintura colores</p>                   
+                <p class="precio">$499<span></span></p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img class='ventaimg'src="../media/pasteles.jpg" alt="producto 5">
+            <div class="informacion">
+                <p>Pintura tonos pastel</p>                   
+                <p class="precio">$63.000 galon<span></span></p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img class='ventaimg' src="../media/metalizados.JPG" alt="producto 6">
+            <div class="informacion">
+                <p>Pintura tonos metalizados</p>                   
+                <p class="precio">$65.000 galon<span></span></p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img class='ventaimg' src="../media/vajilla.jpg" alt="producto 7">
+            <div class="informacion">
+                <p>Vajilla</p>                   
+                <p class="precio">$100.000<span></span></p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img class='ventaimg' src="../media/vasos.jpg" alt="producto 8">
+            <div class="informacion">
+                <p>Vasos</p>                   
+                <p class="precio">$70.000<span></span></p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img class='ventaimg' src="../media/cubiertos.jpg" alt="producto 9">
+            <div class="informacion">
+                <p>Cubiertos</p>                   
+                <p class="precio">$80.000<span></span></p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img class='ventaimg' src="../media/ESPEJO.webp" alt="producto 9">
+            <div class="informacion">
+                <p>Espejo</p>                   
+                <p class="precio">$180.000<span></span></p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img class='ventaimg' src="../media/JARRON.webp" alt="producto 9">
+            <div class="informacion">
+                <p>Jarron</p>                   
+                <p class="precio">$80.000<span></span></p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img class='ventaimg' src="../media/VELASROJAS.jpg" alt="producto 9">
+            <div class="informacion">
+                <p>Velas</p>                   
+                <p class="precio">$60.000<span></span></p>
+                <button>Comprar</button>
+            </div>
+        </div>
     </div>
-
+    
 </body>
-
+<footer class="foo1">
+    <img class='imagens' src="../media/facebook (1).png">
+    <img class='imagens' src="../media/insta.png">
+    <img class='imagens' src="../media/twitter.png">
+    <img class='imagens' src="../media/tiktok.png">
+</footer>
 </html>

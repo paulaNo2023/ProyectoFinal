@@ -37,9 +37,6 @@ h1 {
 }
 
 .boxmodelDiv {
-    /* width: 200;
-    height: 200; */
-
     margin-top: 20px;
     /* margen arriba*/
     margin-right: 200px;
@@ -47,17 +44,13 @@ h1 {
     margin-bottom: 20px;
     /*mergen en la parte de abajo */
     margin-left: 300px;
-    /*margin a la izquiera de 20*/
-    /*margin: 5px, 10px, 15px, 20px; /*todo se resume a esta linea */
     text-align: 20px, 250px, 20px, 300;
-    /* border-radius: 10px; */
-    /* display: inline-block; */
 }
 
 
 .boxModelDiv2 {
-    width: 400px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     background-color: rgb(137, 92, 137);
     overflow: visible;
     /*ya esta visible*/
@@ -85,28 +78,25 @@ h1 {
 
 
 }
+#materiales{
+    margin-top: 460px;
+}
 
 .tabla1 {
-    /*background-image: url(/media/vMRjRY.gif);*/
- /*   width: 220px;
-    height: 220px;
-    margin-left: 20px;*/
-    /*margin a la izquiera de 20*/
     margin-bottom: 60px;
     margin-inline-start: 30px;
     margin-inline-end: 50px;
     display: inline-table;
-
-
-
-
-
+    margin-top: 5px;
 }
 
-/* .titulos{
+
+.titulos1{
 
     text-align: center;
-} */
+    font-size: 2000px;
+
+} 
 
 
 #ulNav {
@@ -118,15 +108,11 @@ h1 {
     float: left;
     margin-right: 10px;
     padding: 0 4px;
-    /* text-align: center;
-    width: 200px; */
-
 }
 
 .padre-flex span {
     width: auto;
     height: 300px;
-    /* padding: 5px, 10px, 15px, 20px; */
 }
 
 .padre-flex {
@@ -134,18 +120,12 @@ h1 {
     background-color: rgb(137, 92, 137);
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
-    /* justify-content: space-around; */
     justify-content: space-evenly;
-    /* grid-template-columns: repeat(3, 520px); */
-
-
-
 }
 
 .grid1 {
     display: grid;
-    grid-template-columns: repeat(3, 520px);
+    grid-template-columns: repeat(3, 490px);
 }
 
 .parrafo {
@@ -168,10 +148,6 @@ footer {
     margin-right: 500px;
     margin-inline-end: 600px;
     margin-bottom: 20px;
-
-    
-    
-
 }
 
 header,
@@ -189,47 +165,6 @@ footer {
     justify-content: center;
 }
 
-/* @media screen and (min-width: 320px) {
-    #main {
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: auto 5% 15% 10% 15% 5%;
-        column-gap: 10px; /*espacio entre las filas */
-/* row-gap: 10; espacio entre las columnas */
-/* gap: 5px; unico valor para los espacios entre filas y columnas */
-/* grid-template-areas: "header" "nav" "section" "section" "section" "footer"; tantas comillas como filas */
-
-/* }
-
-
-/* }  */
-
-/* @media screen and (min-width: 1200px) {
-        #main{
-        grid-template-columns: 15% auto;
-        grid-template-rows: 15% 10% auto 15%;
-        column-gap: 10px; /*espacio entre las filas*/
-/* row-gap: 10; espacio entre las columnas */
-/* gap: 10px; unico valor para los espacios entre filas y columnas */
-/* grid-template-areas: "header header" "nav nav" "aside section" "footer footer"  ; tantas comillas como filas */
-
-
-/* }} */
-
-/* #main{
-        grid-template-columns: auto auto auto auto ;
-        grid-template-rows: 15% 5% auto 10% 10% 10% 15% 5%;
-         column-gap: 10px; /*espacio entre las filas */
-/*  row-gap: 10; /*espacio entre las columnas */
-/* gap: 5px;
-        /*unico valor para los espacios entre filas y columnas*/
-/* grid-template-areas: "header header" "nav nav" "section section" "section section" "section section" "aside aside" "section section" "footer footer";
-        /*tantas comillas como filas*/
-
-/* }
-
-
-} */
-
 @media all and (max-width: 480px) { 
     .logo {
         margin: 5px 45px -0.5px 100px;
@@ -245,7 +180,7 @@ footer {
     #servicios2 {
        
         width: 10px;
-        margin: 20px 20px 20px -305px;
+        margin: 20px 20px 200000px -305px;
        
     }
     .foo1{
@@ -559,7 +494,7 @@ footer {
     }
 
     .grid1 {
-        grid-template-columns: repeat(1, 800px);
+        grid-template-columns: repeat(1, 600px);
         margin-top: 20px;
 
     }
@@ -825,12 +760,6 @@ h2 {
         }
     }
 }
-/*
-@media screen and (max-width: 767px) {
-    .logo{
-        margin: $marginLogo;
-    }
-}*/
 .venta{
     display: inline-table;
     font-size: 20px;
@@ -928,10 +857,242 @@ transform: rotate(360deg);
     width: 70px;
     margin-left: -50px;
 }
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 45px;
+    margin-top: 50px;
+}
+.contenedor>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #2D4263;
+    border-radius: 20px;
+}
+.contenedor>div:hover{
+    background-color: #11294d;
+    .informacion{
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:15px;
+    }
+    .informacion>p:first-child{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-weight: 300;
+    }
+    .informacion .precio {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .informacion .precio span{
+        font-size: 17px;
+        font-weight: 300;
+    }
+    .informacion button{
+        background-color: #263143;
+        width: 100px;
+        height: 35px;
+        border-radius: 10px;
+        border: none;
+    
+        font-size: 17px;
+        font-weight: 300;
+        cursor: pointer;
+    }
+    .informacion button:hover{
+        background-color: #2D4263;
+    }
+}
+.ventaimg {
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.carrito{
+    filter: invert(100%);
+    width: 45px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.wrapper{
+	width: 100%;
+	margin-top: 100px;
+	background: #33032f;
+	padding: 20px 0;
+}
+
+.slider-testimonial{
+	width: 85%;
+	max-width: 1400px;
+	margin: auto;
+;
+}
+
+.testimonial-client{
+	margin-bottom: 15px;
+    margin-top: 50px;
+
+}
+
+.testimonial-client img{
+	width: 400px;
+	margin:auto;
+}
+
+.client-name{
+	font-family: "Open sans";
+	font-weight: 600;
+	text-align: center;
+}
+
+.testimonial-text{
+	padding: 10px 120px;
+}
+
+.testimonial-text p{
+	font-family: "Open sans";
+	font-size: 25px;
+	font-weight: 400;
+	font-style: italic;
+	text-align: center;
+	color: #454545;
+}
+
+
+a.btnAzul {
+    display: block;
+    width: 70px;
+    height: 60px;
+    padding: 25px 0 0 0;
+    margin: 0 auto;
+    
+    background: #c305e1;
+    background: -moz-linear-gradient(top, #800578 0%, #b446b4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6d1174), color-stop(100%,#4682B4));
+ 
+    box-shadow: inset 0px 0px 6px #fff;
+    -webkit-box-shadow: inset 0px 0px 6px #fff;
+    border: 1px solid #4a0947;
+    border-radius: 10px;
+ 
+    font: bold 13px Helvetica, Sans-Serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3090C7;
+    text-shadow: 0px 1px 2px #010a0f;
+}
+.container1 {
+    position: absolute;
+    height: 100px;
+    width: 600px;
+    top: 650px;
+    left: calc(50% - 300px);
+    display: flex;
+  }
+  
+  .card {
+    display: flex;
+    height: 280px;
+    width: 380px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    left: 0px;
+  }
+  
+  .card:not(:first-child) {
+      margin-left: -50px;
+  }
+  
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card:hover ~ .card {
+    position: relative;
+    left: 80px;
+    transition: 0.4s ease-out;
+  }
+  
+  .title {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  }
+  
+  .bar {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 5px;
+    width: 150px;
+  }
+  
+  .emptybar {
+    background-color: #2e3033;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .filledbar {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(0,154,217);
+    background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+    transition: 0.6s ease-out;
+  }
+  
+  .card:hover .filledbar {
+    width: 120px;
+    transition: 0.4s ease-out;
+  }
+
+  .stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+  }
+  
+  svg {
+    fill: #17141d;
+    stroke-width: 2px;
+  }
+  
+  .card:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+  }
+  .servicioss{
+ 
+    width: 200px;
+    height: auto;
+    margin-left: 0px;
+}
+
 
 
   
   
     
+
+
+
+
+
 
 
