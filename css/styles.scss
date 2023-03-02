@@ -176,11 +176,23 @@ footer {
         font-size: 15px;
         float: left;
     }
+    .container1{
+        height: 10px;
+        width: 10px;
+        margin-left: 90px;
+        display: flex;
+        margin-top: -265px;
+        margin-right: auto;
+     
+    }
+    .materiales{
+        margin-top: 20px;
+    }
 
     #servicios2 {
        
         width: 10px;
-        margin: 20px 20px 200000px -305px;
+        margin: 20px 20px 20px -305px;
        
     }
     .foo1{
@@ -199,7 +211,8 @@ footer {
         margin: 0px 0px 0px 0px;
         display: list-item;
         font-size: 40;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
+        margin-top: 100px;
     }
 
     aside {
@@ -312,34 +325,44 @@ footer {
         height: auto;
         width: auto;
     }
+    .contenedor{
+        margin-left: -190px;
+        margin-top: 60px;
+    }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
+   
+    #main {
+        width: 480px;
+        height: 768px;
+    }
+   
     .logo {
-        margin: 5px 25px 0.5px 225px;
-        width: 300px;
+        margin: 5px 25px 0.5px 150px;
+        width: 200px;
     }
 
     .li {
         background-color: rgb(108, 97, 118);
         font-size: 20px;
         float: left;
-    }
 
+    }
     #servicios2 {
-        font-size: 15px;
-        margin: 50px 50px 50px -310px;
+        font-size: 10px;
+        margin: 10px 10px 10px -310px;
         
     }
 
     .boxModelDiv2 {
-        margin-left: 190px;
+        margin-left: 20px;
         display: list-item;
         font-size: 55;
     }
 
     .tabla1 {
-        margin: 0px 0px 0px 180px;
+        margin: 0px 0px 0px 25px;
         display: list-item;
         font-size: 60;
         margin-bottom: 20px;
@@ -375,7 +398,7 @@ footer {
     }
     .titulo{
         margin-top: 50px;
-        width: 900px;
+        width: 600px;
         height: 30px;
     }
     .subtitulos{
@@ -449,18 +472,27 @@ footer {
         height: auto;
         width: auto;
     }
+    .contenedor{
+        margin-left: -160px;
+        margin-top: 60px;
+    }
+
    }
 
  @media all and (min-width: 768px) and (max-width: 1024px) { 
     .logo {
-        margin: 5px 25px 0.5px 220px;
-        width: 300px;
+        margin: 5px 25px 0.5px 160px;
+        width: 500px;
     }
 
     .li {
         background-color: rgb(108, 97, 118);
-        font-size: 20px;
+        font-size: 30px;
         float: left;
+      
+    }
+    .container1{
+        margin-top: 60px;
     }
 
     #servicios2 {
@@ -470,7 +502,7 @@ footer {
     }
 
     .boxModelDiv2 {
-        margin-left: 320px;
+        margin-left: 250px;
         display: list-item;
         font-size: 55;
     }
@@ -483,7 +515,7 @@ footer {
     }
 
     aside {
-        margin-right: 10px;
+        margin-right: -200px;
         margin-left: 10px;
         font-size: 25px;
         margin-bottom: 20px;
@@ -494,9 +526,38 @@ footer {
     }
 
     .grid1 {
-        grid-template-columns: repeat(1, 600px);
-        margin-top: 20px;
+        grid-template-columns: repeat(1, 400px);
+        margin-top: 40px;
+        margin-block-end: 5px;   
 
+
+    }
+    .imgs{
+        margin-left: -250px;
+        margin-right: 100px;
+        
+    }
+    .imgs1{
+        margin-block-start: 20px;
+        margin-left: -250px;
+        margin-right: 100px;
+       
+    }
+    .imgs2{
+        margin-block-start: 20px;
+        margin-left: -250px;
+        margin-right: 100px;
+    }
+    .imgs3{
+        margin-block-start: 20px;
+        margin-left: -250px;
+        margin-right: 100px;
+    }
+    .imgs4{
+        margin-block-start: 20px;
+        margin-left: -250px;
+        margin-right: 100px;
+    
     }
 
     .boton {
@@ -512,9 +573,10 @@ footer {
 
     }
     .titulo{
-        margin-top: 50px;
-        width: 900px;
+        margin-top: 115px;
+        width: 950px;
         height: 30px;
+    
     }
     .foo1{
         margin-left: 740px;
@@ -530,11 +592,6 @@ footer {
     .sub1{
         width: 9800px;
         height: 35px;
-    }
-    .grid1{
-        margin-top: 20px;
-        margin-block-end: 20px;   
-
     }
     .fo{
         margin-left: 740px;
@@ -561,15 +618,19 @@ footer {
     }
 
     .fo3{
-        margin-left: 740px;
+        margin-left: 900px;
        
     }
     .imgcli{
-        margin-top: 20px;
+        margin-top: 40px;
         margin-left: -300px;
         height: auto;
         width: auto;
         margin-right: 200px;
+    }
+    .contenedor{
+        margin-left: -400px;
+        margin-top: 40px;
     }
 
    }
@@ -594,13 +655,13 @@ footer {
     .boxModelDiv2 {
         margin-left: 480px;
         display: list-item;
-        font-size: 55;
+        font-size: 65;
     }
 
     .tabla1 {
         margin: 0px 0px 0px 10px;
         display: list-item;
-        font-size: 60;
+        font-size: 160;
         margin-bottom: 20px;
     }
 
@@ -612,20 +673,45 @@ footer {
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 60px;
     }
 
     .grid1 {
-        grid-template-columns: repeat(2, 500px);
+        grid-template-columns: repeat(2, 400px);
         margin-top: 20px;
+        font-size: 20px;
 
+    }
+    .imgs{
+        margin-left: 10px;
+        margin-right: -400px;
+    }
+    .imgs1{
+        margin-left: -390px;
+        margin-right: -10px;
+       
+    }
+    .imgs2{
+        margin-left: 35px;
+        margin-right: -400px;
+    }
+    .imgs3{
+        margin-block-start: 490px;
+        margin-left: -380px;
+        margin-right: 0px;
+    }
+    .imgs4{
+
+        margin-left: 20px;
+        margin-right: -400px;
+    
     }
 
     .boton {
         margin-top: 20px;
         margin-right: auto;
         margin-left: 310px;
-        font-size: 20px;
+        font-size: 60px;
     }
     .imagens{
     height: 800px;
@@ -637,12 +723,15 @@ footer {
         margin-top: 50px;
         width: 900px;
         height: 30px;
+        font-size: 30px;
     }
     .foo1{
         margin-left: 1000px;
     }
     .sub1{
         font-size: 30px;
+        width: 9800px;
+        height: 35px;
     }
     .subtitulos{
         margin-left:20px;
@@ -652,10 +741,6 @@ footer {
     .item{
         margin-left: 150px;
     }
-    .sub1{
-        width: 9800px;
-        height: 35px;
-    }
     .grid1{
         margin-top: 20px;
         margin-block-end: 20px;   
@@ -663,6 +748,7 @@ footer {
     }
     .fo{
         margin-left: 1000px;
+        margin-bottom: 20px;
 
     }
     .venta{
@@ -680,6 +766,7 @@ footer {
     .testimonios2{
         margin-left: -140px;
         margin-block-end: 20px;
+        font-size: 20px;
     }
     .fo2{
         margin-left: 1000px;
@@ -690,11 +777,12 @@ footer {
        
     }
     .imgcli{
-        margin-top: 20px;
+        margin-top: 40px;
         margin-left: -300px;
         height: auto;
         width: auto;
         margin-right: 200px;
+
     }
 
    }
@@ -990,12 +1078,12 @@ a.btnAzul {
     text-shadow: 0px 1px 2px #010a0f;
 }
 .container1 {
-    position: absolute;
+   position: absolute;
     height: 100px;
     width: 600px;
     top: 650px;
     left: calc(50% - 300px);
-    display: flex;
+    display: flex; 
   }
   
   .card {
