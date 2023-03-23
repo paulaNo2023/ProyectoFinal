@@ -1,224 +1,294 @@
 @import "variables";
 @import 'https://fonts.googleapis.com/css?family=Rubik+One';
-* {
-    background-color: $colorPrincipal;
-    background: linear-gradient(purple, violet);
-    
-}
+$colorbg: #0CC0DF;
 
-#main {
-    width: 100%;
-    height: 1200px;
-}
-
-.item {
-    text-align: left;
+*
+{
+    background-color: white;
 
 }
 
-.logo {
+.logo
+{
+    margin-top: 10px;
+    margin-left: 600px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
+
+.imglogo
+{
+    margin-top: -180px;
+    margin-left: 980px;
+}
+
+.carruselindex
+{
+    margin-top: -100px;
+}
+
+.imghorizontal
+{
+    margin-left: 80px;
     margin-top: 20px;
-    margin-left: 500px;
-   
 }
 
-h1 {
-    color: aquamarine;
+.imgTrabajador
+{
+    margin-left: 800px;
+    margin-top: -880px;
+    margin-right: 20px;
 }
 
-.titulo {
+aside
+{
+    width: 800px;
+    height: 800px;
+}
+
+.mapa1
+{
+    width: 800px;
+    height: 800px;
+    margin-left: 718px;
+    margin-top: -776px;
+
+}
+
+.secmapa
+{
+    margin-left: 100px;
+}
+
+.formu
+{
+    margin-left: 50px;
+}
+
+h1
+{
+    color: black;
     text-align: center;
-    font-size: 25px;
 }
 
-.subtitulos {
+.tituloser
+{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    background-color: #0CC0DF;
+}
+
+.subtesti
+{
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.boxmodelDiv {
+.boxmodelDiv
+{
     margin-top: 20px;
-    /* margen arriba*/
     margin-right: 200px;
-    /*margena la derecha */
     margin-bottom: 20px;
-    /*mergen en la parte de abajo */
     margin-left: 300px;
     text-align: 20px, 250px, 20px, 300;
 }
 
+.parrafoservicio
+{
 
-.boxModelDiv2 {
+    background-color: $colorbg;
+}
+
+
+.boxModelDiv2
+{
     width: 300px;
     height: 300px;
-    background-color: rgb(137, 92, 137);
+    background-color: #868eb0;
     overflow: visible;
-    /*ya esta visible*/
     overflow: hidden;
-    /*corta en el ancho y largo que se le de =*/
-    overflow: scroll;
-    /* le pone el scroll a todas las clases con ese nombre */
     overflow: auto;
-    /* le pone el scroll a quien lo requira*/
-
     margin-left: 50px;
-    /*margin a la izquiera de 20*/
-
     padding-top: 5px;
-    /*se delimita la caja popr dentro arriba */
     padding-right: 10px;
-    /*se delimita la caja popr dentro derecha */
-    padding-bottom: 15px;
-    /*se delimita la caja popr dentro abajo */
+    padding-bottom: 5px;
     padding-left: 20px;
-    /*se delimita la caja popr dentro izquierda */
     padding: 5px, 10px, 15px, 20px;
     display: inline-block;
-    /*alinea los cuadros*/
-
 
 }
-#materiales{
-    margin-top: 460px;
+
+#materiales
+{
+    margin-top: 320px;
 }
 
-.tabla1 {
+.gridmateriales
+{
     margin-bottom: 60px;
     margin-inline-start: 30px;
     margin-inline-end: 50px;
     display: inline-table;
     margin-top: 5px;
+    background-image: url('pintura.jpg');
+
 }
 
 
-.titulos1{
-
-    text-align: center;
-    font-size: 2000px;
-
-} 
 
 
-#ulNav {
+#ulNav
+{
     list-style-type: none;
+    align-items: center;
 }
 
-.li {
-    background-color: rgb(108, 97, 118);
+.li
+{
+
     float: left;
-    margin-right: 10px;
+    margin-right: 0px;
+    margin-top: 25px;
     padding: 0 4px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+
 }
 
-.padre-flex span {
+.padre-flex span
+{
     width: auto;
     height: 300px;
 }
 
-.padre-flex {
+.padre-flex
+{
 
-    background-color: rgb(137, 92, 137);
+    background-color: $colorbg;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.grid1 {
+.gridservicios
+{
     display: grid;
     grid-template-columns: repeat(3, 490px);
+    margin-top: 70PX;
+    margin-left: 30px;
 }
 
-.parrafo {
+.parrafo
+{
     text-align: initial;
     margin-right: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.boton {
+.boton
+{
     margin-top: 20px;
     margin-right: auto;
     margin-left: 650px;
 
 }
 
-footer {
-    margin-top: 5px;
+footer
+{
     margin-inline-start: 20px;
-    margin-left: 650px;
-    margin-right: 500px;
-    margin-inline-end: 600px;
-    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
-header,
-footer {
-    background-color: rgb(93, 1, 111);
+.imagens1
+{
+
+    height: 80px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 400px;
 }
 
-.redes {
-    font-size: large;
-    font-weight: bold;
-    padding: 5px;
-    margin: 5px;
-    grid-area: flex;
-    align-items: center;
-    justify-content: center;
+.imagens2
+{
+    height: 80px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 400px;
 }
 
+.imagens3
+{
+    height: 80px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 400px;
+}
 
-h2 {
+.imagens4
+{
+    height: 80px;
+    width: 600px;
+    margin-top: -400px;
+    margin-left: 400px;
+}
+
+h2
+{
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: infinite;
 }
 
-@keyframes aparecer {
-    0% {
+@keyframes aparecer
+{
+    0%
+    {
         opacity: 0;
 
     }
 
-    100% {
+    100%
+    {
         opacity: 1;
     }
 }
 
-.logo {
-    animation-duration: 5s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-}
-
-@keyframes aparecer {
-    0% {
+@keyframes aparecer
+{
+    0%
+    {
         opacity: 0;
 
     }
 
-    100% {
+    100%
+    {
         opacity: 1;
     }
 
 }
-#carousel1{
-    width: 60%;
-    height: 60%;
-    margin-left: 290px;
-    margin-bottom: 10px;
-    animation-duration: 10s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
 
-}
-.grid1{
-    background-color: violet;
-    h3{
+.gridservicios
+{
+    background-color: azure;
+
+    h3
+    {
         text-decoration: underline;
-        &:hover{
-            background-color: red;
+
+        &:hover
+        {
+            background-color: $colorbg;
             margin: 5px 5px 5px 5px;
-            border: rgb(233, 7, 233)  5px solid;
-            p{
+            border: black 5px solid;
+
+            p
+            {
                 text-decoration: line-through;
                 animation-duration: 3s;
                 animation-name: slidein;
@@ -227,54 +297,59 @@ h2 {
         }
     }
 }
-.venta{
+
+.venta
+{
     display: inline-table;
     font-size: 20px;
     margin: 12px 12px 12px 12px;
 
 }
 
-#carousel2{
-    width: 60%;
-    height: 60%;
-    margin-left: 290px;
-    margin-bottom: 10px;
-    animation-duration: 10s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-}
-.servicios1{
+
+.imgservcliente
+{
+    margin-top: 20px;
     margin-left: 290px;
     width: 950px;
     height: 600px;
-    &:hover{
-        border-radius:50%;
--webkit-border-radius:50%;
-box-shadow: 0px 0px 15px 15px #920f76;
--webkit-box-shadow: 0px 0px 15px 15px #cd1eec;
-transform: rotate(360deg);
--webkit-transform: rotate(360deg);
+
+    &:hover
+    {
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        box-shadow: 0px 0px 15px 15px #407ec0;
+        -webkit-box-shadow: 0px 0px 15px 15px #4b66c7;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
     }
 }
-.cliente1{
+
+.servcli
+{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 20px;
     margin-left: 5px;
     margin-right: 5px;
-   
+
 }
-.imagentest:hover{
+
+.imagentest:hover
+{
     filter: opacity(.5);
 }
-.imag1:hover{
+
+.imag1:hover
+{
     -webkit-transform: rotateY(180deg);
     -webkit-transform-style: preserve-3d;
     transform: rotateY(180deg);
     transform-style: preserve-3d
 }
 
-.btn{
+.btn
+{
     position: center;
     display: block;
     color: white;
@@ -288,43 +363,51 @@ transform: rotate(360deg);
     text-transform: uppercase;
     overflow: hidden;
     transition: 1s all ease;
-  }
-  .btn::before{
+}
+
+.btn::before
+{
     background: #ff7675;
     content: "";
     position: absolute;
     top: 50%;
     left: 20%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: -1;
     transition: all 0.3s ease;
-  }
+}
 
-.btn4::before{
+.btn4::before
+{
     width: 100%;
     height: 0%;
-    transform: translate(-50%,-50%) rotate(-45deg);
-  }
-  .btn4:hover::before{
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.btn4:hover::before
+{
     height: 380%;
-  }
-
-  .imagens{
-    height: 40px;
-    width: 40px;
-   
-
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
 }
- 
-.imagens:hover {
-    height: 100px;
-    width: 70px;
-    margin-left: -50px;
+
+.imagens
+{
+    height: 80px;
+    width: 700px;
+    margin-top: -350px;
+    margin-left: 400px;
+
 }
-.contenedor{
+
+.imagen1
+{
+    height: 80px;
+    width: 500000px;
+    margin-top: -350px;
+    margin-left: 400px;
+}
+
+.gridventas
+{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -332,123 +415,135 @@ transform: rotate(360deg);
     margin-bottom: 45px;
     margin-top: 50px;
 }
-.contenedor>div{
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    background-color: #2D4263;
+
+.gridventas>div
+{
+    box-shadow: 0px 0px 5px 0px $colorbg;
+    background-color: $colorbg;
     border-radius: 20px;
 }
-.contenedor>div:hover{
-    background-color: #11294d;
-    .informacion{
+
+.gridventas>div:hover
+{
+    background-color: $colorbg;
+
+    .informacion
+    {
         height: 150px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap:15px;
+        gap: 15px;
     }
-    .informacion>p:first-child{
+
+    .informacion>p:first-child
+    {
         font-family: 'Montserrat', sans-serif;
         font-size: 25px;
         font-weight: 300;
     }
-    .informacion .precio {
+
+    .informacion .precio
+    {
         font-size: 20px;
         font-weight: 500;
     }
-    .informacion .precio span{
+
+    .informacion .precio span
+    {
         font-size: 17px;
         font-weight: 300;
     }
-    .informacion button{
-        background-color: #263143;
+
+    .informacion button
+    {
+        background-color: $colorbg;
         width: 100px;
         height: 35px;
         border-radius: 10px;
         border: none;
-    
         font-size: 17px;
         font-weight: 300;
         cursor: pointer;
     }
-    .informacion button:hover{
-        background-color: #2D4263;
+
+    .informacion button:hover
+    {
+        background-color: $colorbg;
     }
 }
-.ventaimg {
+
+.ventaimg
+{
     width: 320px;
     height: 340px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
-.carrito{
-    filter: invert(100%);
-    width: 45px;
-    height: auto;
-    margin-left: 20px;
+
+
+.testimonioscli
+{
+    width: 100%;
+    margin-top: 100px;
+    background: $colorbg;
+    padding: 20px 0;
 }
 
-.wrapper{
-	width: 100%;
-	margin-top: 100px;
-	background: #33032f;
-	padding: 20px 0;
-}
-
-.slider-testimonial{
-	width: 85%;
-	max-width: 1400px;
-	margin: auto;
-;
-}
-
-.testimonial-client{
-	margin-bottom: 15px;
+.parrafotesti
+{
+    margin-bottom: 15px;
     margin-top: 50px;
 
 }
 
-.testimonial-client img{
-	width: 400px;
-	margin:auto;
+.imgtesti img
+{
+    width: 400px;
+    margin: auto;
 }
 
-.client-name{
-	font-family: "Open sans";
-	font-weight: 600;
-	text-align: center;
+.nombrecli
+{
+    font-family: "Open sans";
+    font-weight: 600;
+    text-align: center;
 }
 
-.testimonial-text{
-	padding: 10px 120px;
+.parrafotesti
+{
+    padding: 10px 120px;
 }
 
-.testimonial-text p{
-	font-family: "Open sans";
-	font-size: 25px;
-	font-weight: 400;
-	font-style: italic;
-	text-align: center;
-	color: #454545;
+.parrafotesti p
+{
+    font-family: "Open sans";
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    color: #454545;
 }
 
 
-a.btnAzul {
+a.btnAzul
+{
     display: block;
     width: 70px;
     height: 60px;
     padding: 25px 0 0 0;
     margin: 0 auto;
-    
+
     background: #c305e1;
     background: -moz-linear-gradient(top, #800578 0%, #b446b4 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6d1174), color-stop(100%,#4682B4));
- 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6d1174), color-stop(100%, #4682B4));
+
     box-shadow: inset 0px 0px 6px #fff;
     -webkit-box-shadow: inset 0px 0px 6px #fff;
     border: 1px solid #4a0947;
     border-radius: 10px;
- 
+
     font: bold 13px Helvetica, Sans-Serif;
     text-align: center;
     text-transform: uppercase;
@@ -456,739 +551,765 @@ a.btnAzul {
     color: #3090C7;
     text-shadow: 0px 1px 2px #010a0f;
 }
-.container1 {
-   position: absolute;
+
+.cardservi
+{
+    position: absolute;
     height: 100px;
     width: 600px;
-    top: 650px;
+    top: 660px;
     left: calc(50% - 300px);
-    display: flex; 
-  }
-  
-  .card {
+    display: flex;
+}
+
+.card
+{
     display: flex;
     height: 280px;
-    width: 380px;
-    background-color: #17141d;
+    width: 450px;
+    background-color: $colorbg;
     border-radius: 10px;
-    box-shadow: -1rem 0 3rem #000;
+    box-shadow: -1rem 0 3rem #1e3685;
     left: 0px;
-  }
-  
-  .card:not(:first-child) {
-      margin-left: -50px;
-  }
-  
-  .card:hover {
+
+}
+
+.titulocard
+{
+    background-color: $colorbg;
+    font-size: 20px;
+}
+
+.card:not(:first-child)
+{
+    margin-left: -50px;
+}
+
+.card:hover
+{
     transform: translateY(-20px);
     transition: 0.4s ease-out;
-  }
-  
-  .card:hover ~ .card {
+}
+
+.card:hover~.card
+{
     position: relative;
     left: 80px;
     transition: 0.4s ease-out;
-  }
-  
-  .title {
+}
+
+.title
+{
     color: white;
     font-weight: 300;
     position: absolute;
     left: 20px;
     top: 15px;
-  }
-  
-  .bar {
+}
+
+.bar
+{
     position: absolute;
     top: 100px;
     left: 20px;
     height: 5px;
     width: 150px;
-  }
-  
-  .emptybar {
+}
+
+.emptybar
+{
     background-color: #2e3033;
     width: 100%;
     height: 100%;
-  }
-  
-  .filledbar {
+}
+
+.filledbar
+{
     position: absolute;
     top: 0px;
     z-index: 3;
     width: 0px;
     height: 100%;
-    background: rgb(0,154,217);
-    background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+    background: rgb(0, 154, 217);
+    background: linear-gradient(90deg, rgba(0, 154, 217, 1) 0%, rgba(217, 147, 0, 1) 65%, rgba(255, 186, 0, 1) 100%);
     transition: 0.6s ease-out;
-  }
-  
-  .card:hover .filledbar {
+}
+
+.card:hover .filledbar
+{
     width: 120px;
     transition: 0.4s ease-out;
-  }
+}
 
-  .stroke {
+.stroke
+{
     stroke: white;
     stroke-dasharray: 360;
     stroke-dashoffset: 360;
     transition: 0.6s ease-out;
-  }
-  
-  svg {
+}
+
+svg
+{
     fill: #17141d;
     stroke-width: 2px;
-  }
-  
-  .card:hover .stroke {
+}
+
+.card:hover .stroke
+{
     stroke-dashoffset: 100;
     transition: 0.6s ease-out;
-  }
-  .servicioss{
- 
+}
+
+.servicioss
+{
+
     width: 200px;
     height: auto;
     margin-left: 0px;
 }
 
-@media all and (max-width: 480px) { 
-    .logo {
-        margin: 5px 45px -0.5px 100px;
+.imgScli
+{
+    margin-left: 400px;
+    margin-top: -350px;
+    width: 500px;
+    height: 500px;
+}
+
+.formu2
+{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+
+@media all and (min-width: 320px) and (max-width: 480px)
+{
+
+    .li
+    {
+        font-size: 15px;
+        float: center;
+    }
+
+    .imglogo
+    {
+        margin-left: -60px;
+        margin-top: 20px;
+        width: 350px;
+        height: 400px;
+    }
+
+    .containerCarrusel
+    {
         width: 300px;
+        height: 300px;
     }
 
-    .li {
-        background-color: rgb(108, 97, 118);
-        font-size: 13px;
-        float: left;
+    .imghorizontal
+    {
+        width: 300px;
+        height: 500px;
+        margin-left: 0px;
+        margin-top: 160px;
     }
-    .container1{
-        height: 100px;
-        width: 100px;
-        margin-left: 100px;
-        display: flex;
+
+    .imgTrabajador
+    {
+        margin-top: 130px;
+        margin-left: 0px;
+        width: 300px;
+        height: 700px;
+    }
+
+    .tituloser
+    {
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .mapa1
+    {
+        margin-top: -350px;
+        margin-left: -5px;
+
+    }
+
+    .imagens
+    {
+        margin-left: -8px;
+        width: 320px;
+        height: 60px;
+        margin-top: -700px;
+    }
+
+    .secmapa
+    {
+        margin-left: 5px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .formu
+    {
+        margin-left: -1px;
+    }
+
+    .gridservicios
+    {
+
+        grid-template-columns: repeat(1, 300px);
+        margin-top: 20px;
+        font-size: 15px;
+        margin-left: -0px;
+
+    }
+
+    .img1servi
+    {
+        width: 320px;
+    }
+
+    .imagens1
+    {
+        margin-left: -8px;
+        width: 320px;
+        height: 60px;
+    }
+
+    .imagens2
+    {
+        margin-left: -8px;
+        width: 320px;
+        height: 60px;
+    }
+
+    .imagens3
+    {
+        margin-left: -8px;
+        width: 320px;
+        height: 60px;
+    }
+
+    .parrafotesti
+    {
+        font-size: 8px;
+        align-items: left;
+        padding: 5px 0;
+    }
+
+    .imgtesti img
+    {
+        width: 310px;
+        margin: auto;
+    }
+
+    .imgservcliente
+    {
+        width: 300px;
+        margin-left: 5px;
+        height: 200px;
+    }
+
+    .formu2
+    {
+        margin-left: 5px;
+        width: 310px;
+        font-size: 15px;
+        margin-top: -20px;
+    }
+
+    .imgScli
+    {
         margin-top: -200px;
-        margin-right: 100000px;
-     
-    }
-    .materiales{
-        margin-top: -10px;
-    }
-
-    #servicios2 {
-       
-        width: 10px;
-        margin: 20px 20px 20px -305px;
-       
-    }
-    .foo1{
-        width: -100px;
-        height: -100px;
-        margin-left: 200px;
+        margin-left: 0px;
+        width: 310px;
+        height: 380px;
 
     }
-     .boxModelDiv2 {
- 
-        margin-left: 100px;
-        margin-right: 200px;
-        display: list-item;
-        font-size: 10;
-       
+
+    .imagens4
+    {
+        margin-left: -2px;
+        width: 300px;
+        height: 60px;
+        margin-top: -18px;
+
+    }
+}
+    @media all and (min-width: 481px) and (max-width: 768px){
+        
+    .li
+    {
+        font-size: 15px;
+        float: center;
     }
 
-    .tabla1 {
-        margin: 0px 0px 0px 0px;
-        display: list-item;
-        font-size: 40;
-        margin-bottom: 0px;
+    .imglogo
+    {
+        margin-left: -50px;
+        margin-top: 20px;
+        width: 350px;
+        height: 400px;
+    }
+
+    .containerCarrusel
+    {
+        width: 480px;
+        height: 480px;
+    }
+
+    .imghorizontal
+    {
+        width: 400px;
+        height: 500px;
+        margin-left: 20px;
         margin-top: 70px;
     }
 
-    aside {
-        margin-right: 10px;
-        margin-left: 2px;
-        font-size: 10px;
-        margin-bottom: 20px;
+    .imgTrabajador
+    {
+        margin-top: 130px;
+        margin-left: 0px;
+        width: 480px;
+        height: 700px;
     }
 
-    h2 {
-        font-size: 18px;
-    }
-
-    .grid1 {
-        grid-template-columns: repeat(2, 400px);
-
-    }
-    imag1{
-        height: 200px;
-        width: 200px;
-
-    }
-
-    .boton {
-        margin-top: 20px;
-        margin-right: auto;
-        margin-left: 310px;
-        font-size: 20px;
-    }
-    .imagens{
-    height: 800px;
-    width: 60px;
-    margin-left: -10px;
-
-    }
-    .titulo{
-        margin-top: 50px;
-        width: 430px;
-        height: 30px;
-    }
-    .subtitulos{
-        margin-left: 15px;
-        width: 9800px;
-        height: 20px;
-        
-    }
-    .sub1{
-        width: 9800px;
-        height: 35px;
-    }
-    .grid1{
-        margin-top: 20px;
-        margin-block-end: 20px;   
-
-    }
-    .imgs{
-        margin-left: 10px;
-        margin-block-start: 20px;  
-        margin-bottom: 20px;     
-           
-    }
-    .imgs1{
-        margin-block-start: 490px;
-        margin-left: -370px;
-        margin-right: 450px;
-       
-    }
-    .imgs2{
-        margin-left: 30px;
-    }
-    .imgs3{
-        margin-block-start: 490px;
-        margin-left: -370px;
-        margin-right: 400px;
-    }
-    .imgs4{
-        margin-left: 30px;
-    
-    }
-    .fo{
-        margin-left: 390px;
-
-    }
-    .venta{
-        margin-left: 5px;
-        margin-right: 200000px;
-    }
-    .fo1{
-        margin-left: 390px;
-    }
-    #carousel1{
-        margin-top: 40px;   
-        margin-left: 2px;
-       
-    }
-    .testimonios2{
-        margin-left: -140px;
-        margin-block-end: 20px;
-    }
-    .fo2{
-        margin-left: 390px;
-    }
-
-    .fo3{
-        margin-left: 390px;
-    }
-    /*.imgcli{
-        margin-top: 20px;
-        margin-left: -500px;
-        height: 10px;
-        width: 10px;
-    }*/
-    .contenedor{
-        margin-left: -100px;
-        margin-top: 60px;
-    }
-    .servicios1{
-        width: 300px;
-        height: 200px;
-        margin-left: 90px;
-}
-}
-
-@media all and (min-width: 481px) and (max-width: 768px) {
-   
-   
-    .logo {
-        margin: 0.5px 20px 0.5px 110px;
-        width: 300px;
-    }
-
-    .li {
-        background-color: rgb(108, 97, 118);
-        font-size: 15px;
-        float: left;
-
-    }
-    .container1{
-        margin-top: -150px;
-        width: 500px;
-        height: 10px;
-    }
-    .materiales{
-        margin-top: 2000px;
-    }
-
-    .boxModelDiv2 {
-        margin-left: 20px;
-        display: list-item;
-        font-size: 55;
-    }
-
-    .tabla1 {
-        margin: 0px 0px 0px 25px;
-        display: list-item;
-        font-size: 60;
-        margin-bottom: 20px;
-    }
-
-    aside {
-        margin-right: 10px;
-        margin-left: 10px;
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    .grid1 {
-        grid-template-columns: repeat(2, 400px);
-
-    }
-
-    .boton {
-        margin-top: 20px;
-        margin-right: auto;
-        margin-left: 310px;
-        font-size: 20px;
-    }
-    .imagens{
-    height: 800px;
-    width: 60px;
-    margin-left: -10px;
-
-    }
-    .titulo{
-        margin-top: 50px;
-        width: 600px;
-        height: 30px;
-    }
-    .subtitulos{
-        margin-left: 15px;
-        width: 9800px;
-        height: 20px;
-    }
-    .sub1{
-        width: 9800px;
-        height: 35px;
-    }
-    .grid1{
-        margin-top: 20px;
-        margin-block-end: 20px;   
-
-    }
-    .imgs{
-        margin-left: 30px;
-        margin-block-start: 20px;  
-        margin-bottom: 20px;     
-           
-    }
-    .imgs1{
-        margin-block-start: 490px;
-        margin-left: -370px;
-        margin-right: 450px;
-       
-    }
-    .imgs2{
-        margin-left: 30px;
-    }
-    .imgs3{
-        margin-block-start: 490px;
-        margin-left: -370px;
-        margin-right: 400px;
-    }
-    .imgs4{
-        margin-left: 30px;
-    
-    }
-    .fo{
-        margin-left: 450px;
-
-    }
-    .venta{
-        margin-left: 25px;
-        margin-right: 20000px;
-    }
-    .fo1{
-        margin-left: 450px;
-    }
-    #carousel1{
-        margin-top: 40px;   
-        margin-left: -10000000000000px;
-       
-    }
-    .testimonios2{
-        margin-left: -140px;
-        margin-block-end: 20px;
-    }
-    .fo2{
-        margin-left: 450px;
-    }
-
-    .fo3{
-        margin-left: 450px;
-    }
-
-    .servicios1{
-        width: 400px;
-        height: 400px;
-        margin-left: 30px;
-    }
-    .contenedor{
-        margin-left: -160px;
-        margin-top: 60px;
-    }
-
-   }
-
- @media all and (min-width: 769px) and (max-width: 1024px) { 
-    .logo {
-        margin: 5px 25px 0.5px 160px;
-        width: 500px;
-    }
-
-    .li {
-        background-color: rgb(108, 97, 118);
-        font-size: 30px;
-        float: left;
-      
-    }
-    .container1{
-        margin-top: 60px;
-    }
-
-    #servicios2 {
-        font-size: 15px;
-        margin: 50px 50px 50px -310px;
-        
-    }
-
-    .boxModelDiv2 {
-        margin-left: 250px;
-        display: list-item;
-        font-size: 55;
-    }
-
-    .tabla1 {
-        margin: 0px 0px 0px 90px;
-        display: list-item;
-        font-size: 60;
-        margin-bottom: 20px;
-    }
-
-    aside {
-        margin-right: -200px;
-        margin-left: 10px;
+    .tituloser
+    {
+        width: 480px;
         font-size: 25px;
-        margin-bottom: 20px;
     }
 
-    h2 {
-        font-size: 20px;
-    }
-
-    .grid1 {
-        grid-template-columns: repeat(1, 400px);
-        margin-top: 40px;
-        margin-block-end: 5px;   
-
+    .mapa1
+    {
+        margin-top: -350px;
+        margin-left: -5px;
 
     }
-    .imgs{
-        margin-left: -250px;
-        margin-right: 100px;
-        
-    }
-    .imgs1{
-        margin-block-start: 20px;
-        margin-left: -250px;
-        margin-right: 100px;
-       
-    }
-    .imgs2{
-        margin-block-start: 20px;
-        margin-left: -250px;
-        margin-right: 100px;
-    }
-    .imgs3{
-        margin-block-start: 20px;
-        margin-left: -250px;
-        margin-right: 100px;
-    }
-    .imgs4{
-        margin-block-start: 20px;
-        margin-left: -250px;
-        margin-right: 100px;
-    
+
+    .imagens
+    {
+        margin-left: 18px;
+        width: 350px;
+        height: 60px;
+        margin-top: -500px;
     }
 
-    .boton {
-        margin-top: 20px;
-        margin-right: auto;
-        margin-left: 310px;
-        font-size: 20px;
-    }
-    .imagens{
-    height: 800px;
-    width: 60px;
-    margin-left: -10px;
-
-    }
-    .titulo{
-        margin-top: 115px;
-        width: 950px;
-        height: 30px;
-    
-    }
-    .foo1{
-        margin-left: 740px;
-    }
-    .sub1{
-        font-size: 30px;
-    }
-    .subtitulos{
-        margin-left: 15px;
-        width: 9800px;
-        height: 20px;
-    }
-    .sub1{
-        width: 9800px;
-        height: 35px;
-    }
-    .fo{
-        margin-left: 740px;
-
-    }
-    .venta{
+    .secmapa
+    {
         margin-left: 5px;
-        margin-right: 200000px;
-    }
-    .fo1{
-        margin-left: 740px;
-    }
-    #carousel1{
-        margin-top: 40px;   
-        margin-left: -10000000000000px;
-       
-    }
-    .testimonios2{
-        margin-left: -140px;
-        margin-block-end: 20px;
-    }
-    .fo2{
-        margin-left: 740px;
+        width: 480px;
+        height: 480px;
     }
 
-    .fo3{
-        margin-left: 900px;
-       
-    }
-    .imgcli{
-        margin-top: 40px;
-        margin-left: -300px;
-        height: auto;
-        width: auto;
-        margin-right: 200px;
-    }
-    .contenedor{
-        margin-left: -400px;
-        margin-top: 40px;
+    .formu
+    {
+        margin-left: -1px;
     }
 
-   }
-   @media all and (min-width: 1025px) and (max-width: 1280px) { 
-    .logo {
-        margin: 5px 25px 0.5px 270px;
-        width: 500px;
-    }
+    .gridservicios
+    {
 
-    .li {
-        background-color: rgb(108, 97, 118);
-        font-size: 30px;
-        float: left;
-    }
-
-    #servicios2 {
-        font-size: 20px;
-        margin: 50px 50px 50px -180px;
-        
-    }
-
-    .boxModelDiv2 {
-        margin-left: 480px;
-        display: list-item;
-        font-size: 65;
-    }
-
-    .tabla1 {
-        margin: 0px 0px 0px 10px;
-        display: list-item;
-        font-size: 160;
-        margin-bottom: 20px;
-    }
-
-    aside {
-        margin-right: 10px;
-        margin-left: 10px;
-        font-size: 35px;
-        margin-bottom: 20px;
-    }
-
-    h2 {
-        font-size: 60px;
-    }
-
-    .grid1 {
-        grid-template-columns: repeat(2, 400px);
+        grid-template-columns: repeat(1, 480px);
         margin-top: 20px;
         font-size: 20px;
+        margin-left: -0px;
 
     }
-    .imgs{
-        margin-left: 10px;
-        margin-right: -400px;
-    }
-    .imgs1{
-        margin-left: -390px;
-        margin-right: -10px;
-       
-    }
-    .imgs2{
-        margin-left: 35px;
-        margin-right: -400px;
-    }
-    .imgs3{
-        margin-block-start: 490px;
-        margin-left: -380px;
-        margin-right: 0px;
-    }
-    .imgs4{
 
-        margin-left: 20px;
-        margin-right: -400px;
-    
+    .img1servi
+    {
+        width: 480px;
     }
 
-    .boton {
-        margin-top: 20px;
-        margin-right: auto;
-        margin-left: 310px;
-        font-size: 60px;
+    .imagens1
+    {
+        margin-left: 18px;
+        width: 350px;
+        height: 60px;
+        margin-top: 10px;
     }
-    .imagens{
-    height: 800px;
-    width: 80px;
-    margin-left: -10px;
 
+    .imagens2
+    {
+        margin-left: 18px;
+        width: 350px;
+        height: 60px;
     }
-    .titulo{
-        margin-top: 50px;
-        width: 900px;
-        height: 30px;
-        font-size: 30px;
-    }
-    .foo1{
-        margin-left: 1000px;
-    }
-    .sub1{
-        font-size: 30px;
-        width: 9800px;
-        height: 35px;
-    }
-    .subtitulos{
-        margin-left:20px;
-        width: 9800px;
-        height: 20px;
-    }
-    .item{
-        margin-left: 150px;
-    }
-    .grid1{
-        margin-top: 20px;
-        margin-block-end: 20px;   
 
+    .imagens3
+    {
+        margin-left: 18px;
+        width: 350px;
+        height: 60px;
     }
-    .fo{
-        margin-left: 1000px;
-        margin-bottom: 20px;
 
+    .parrafotesti
+    {
+        font-size: 8px;
+        align-items: left;
+        padding: 5px 0;
     }
-    .venta{
+
+    .imgtesti img
+    {
+        width: 480px;
+        margin: auto;
+    }
+
+    .imgservcliente
+    {
+        width: 470px;
+        margin-left: 0px;
+        height: 200px;
+    }
+
+    .formu2
+    {
         margin-left: 5px;
-        margin-right: 200000px;
-    }
-    .fo1{
-        margin-left: 1000px;
-    }
-    #carousel1{
-        margin-top: 40px;   
-        margin-left: -10000000000000px;
-       
-    }
-    .testimonios2{
-        margin-left: -140px;
-        margin-block-end: 20px;
+        width: 310px;
         font-size: 20px;
-    }
-    .fo2{
-        margin-left: 1000px;
+        margin-top: -20px;
     }
 
-    .fo3{
-        margin-left: 1000px;
-       
-    }
-    .imgcli{
-        margin-top: 40px;
-        margin-left: -300px;
-        height: auto;
-        width: auto;
-        margin-right: 200px;
+    .imgScli
+    {
+        margin-top: -100px;
+        margin-left: 0px;
+        width: 470px;
+        height: 400px;
 
     }
 
-   }
+    .imagens4
+    {
+        margin-left: 18px;
+        width: 350px;
+        height: 60px;
+        margin-top: -18px;
+        
 
+    }
+    }
 
-
-
-  
-  
+    @media all and (min-width: 769px) and (max-width: 1024px){
+        
+        .li
+        {
+            font-size: 25px;
+            float: left;
+        }
     
+        .imglogo
+        {
+            margin-left: -450px;
+            margin-top: 60px;
+            width: 500px;
+            height: 400px;
+        }
+    
+        .containerCarrusel
+        {
+            width: 785px;
+            height: 785px;
+            margin-left: 5px;
+        }
+    
+        .imghorizontal
+        {
+            width: 600px;
+            height: 700px;
+            margin-left: 60px;
+            margin-top: -80px;
+        }
+    
+        .imgTrabajador
+        {
+            margin-top: -70px;
+            margin-left: 15px;
+            width: 780px;
+            height: 800px;
+        }
+    
+        .tituloser
+        {
+            width: 805px;
+            font-size: 30px;
+        }
+    
+        .mapa1
+        {
+            margin-top: -350px;
+            margin-left: -5px;
+    
+        }
+    
+        .imagens
+        {
+            margin-left: 25px;
+            width: 600px;
+            height: 60px;
+            margin-top: -80px;
+        }
+    
+        .secmapa
+        {
+            margin-left: 5px;
+            width: 780px;
+            height: 600px;
+        }
+    
+        .formu
+        {
+            margin-left: 15px;
+            font-size: 20px;
+        }
+    
+        .gridservicios
+        {
+    
+            grid-template-columns: repeat(1, 780px);
+            margin-top: 20px;
+            font-size: 23px;
+            margin-left: -0px;
+    
+        }
+    
+        .img1servi
+        {
+            width: 780px;
+        }
+    
+        .imagens1
+        {
+            margin-left: 25px;
+            width: 600px;
+            height: 60px;
+            margin-top: 90px;
+        }
+    
+        .imagens2
+        {
+            margin-left: 25px;
+            width: 600px;
+            height: 60px;
+            margin-top: 90px;
+        }
+    
+        .imagens3
+        {
+            margin-left: 25px;
+            width: 600px;
+            height: 60px;
+            margin-top: 90px;
+        }
+    
+        .parrafotesti
+        {
+            font-size: 8px;
+            align-items: left;
+            padding: 5px 0;
+        }
+    
+        .imgtesti img
+        {
+            width: 780px;
+            margin: auto;
+        }
+    
+        .imgservcliente
+        {
+            width: 780px;
+            margin-left: 0px;
+            height: 500px;
+        }
+    
+        .formu2
+        {
+            margin-left: 5px;
+            width: 410px;
+            font-size: 25px;
+            margin-top: -20px;
+        }
+    
+        .imgScli
+        {
+            margin-top: 10px;
+            margin-left: 0px;
+            width: 760px;
+            height: 600px;
+    
+        }
+    
+        .imagens4
+        {
+            margin-left: 25px;
+            width: 600px;
+            height: 60px;
+            margin-top: 90px;
+    
+        }
+        }
 
-
-
-
-
-
+        @media all and (min-width: 1025px) and (max-width: 1280px){
+        
+            .li
+            {
+                font-size: 32px;
+                float: left;
+            }
+        
+            .imglogo
+            {
+                margin-left: 340px;
+                margin-top: 50px;
+                width: 600px;
+                height: 400px;
+            }
+        
+            .containerCarrusel
+            {
+                width: 1025px;
+                height: 1025px;
+                margin-left: 5px;
+            }
+        
+            .imghorizontal
+            {
+                width: 600px;
+                height: 700px;
+                margin-left: 100px;
+                margin-top: -200px;
+            }
+        
+            .imgTrabajador
+            {
+                margin-top: -70px;
+                margin-left: 70px;
+                width: 880px;
+                height: 800px;
+            }
+        
+            .tituloser
+            {
+                width: 1025px;
+                font-size: 35px;
+            }
+        
+            .mapa1
+            {
+                margin-top: -350px;
+                margin-left: -5px;
+        
+            }
+        
+            .imagens
+            {
+                margin-left: 65px;
+                width: 700px;
+                height: 60px;
+                margin-top: -80px;
+            }
+        
+            .secmapa
+            {
+                margin-left: 120px;
+                width: 780px;
+                height: 600px;
+            }
+        
+            .formu
+            {
+                margin-left: 15px;
+                font-size: 20px;
+            }
+        
+            .gridservicios
+            {
+        
+                grid-template-columns: repeat(2, 510px);
+                margin-top: 20px;
+                font-size: 23px;
+                margin-left: -0px;
+        
+            }
+        
+            .img1servi
+            {
+                width: 510px;
+            }
+        
+            .imagens1
+            {
+                margin-left: 65px;
+                width: 700px;
+                height: 60px;
+                margin-top: 80px;
+            }
+        
+            .imagens2
+            {
+                margin-left: 65px;
+                width: 700px;
+                height: 60px;
+                margin-top: 80px;
+            }
+        
+            .imagens3
+            {
+                margin-left: 65px;
+                width: 700px;
+                height: 60px;
+                margin-top: 80px;
+            }
+        
+            .parrafotesti
+            {
+                font-size: 8px;
+                align-items: left;
+                padding: 5px 0;
+            }
+        
+            .imgtesti img
+            {
+                width: 1025px;
+                margin: auto;
+            }
+        
+            .imgservcliente
+            {
+                width: 1025px;
+                margin-left: -2px;
+                height: 500px;
+            }
+            .servfont{
+                font-size: 35px;
+            }
+        
+            .formu2
+            {
+                margin-left: 5px;
+                width: 410px;
+                font-size: 25px;
+                margin-top: -20px;
+            }
+        
+            .imgScli
+            {
+                margin-top: -380px;
+                margin-left: 210px;
+                width: 600px;
+                height: 700px;
+        
+            }
+        
+            .imagens4
+            {
+                margin-left: 65px;
+                width: 700px;
+                height: 60px;
+                margin-top: -100px;
+            }
+            }
